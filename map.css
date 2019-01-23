@@ -12,11 +12,22 @@ body
     height: 4850px;
 }
 
+p
+{
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    margin-left: -256px;
+    margin-top: -256px;
+
+
+}
+
 table
 {
     position: absolute;
     background-color: gainsboro;
-    z-index: 2;
 }
 
 table,th,td
