@@ -6,7 +6,7 @@ function picOpen(id, imgNum)
     var tr1 = document.createElement("tr");
     var th = document.createElement("th");
     var button = document.createElement("button");
-    button.innerHTML = "CLOSE PIC";
+    button.innerHTML = "CHIUDI IMMAGINE";
     button.style.color = "red";
     button.addEventListener("click", function () {
         pos.innerHTML = "";
